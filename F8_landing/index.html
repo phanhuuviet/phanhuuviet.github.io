@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F8, Học lập trình để đi làm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="./asset/fontawesome-free-5.15.4-web/css/all.min.css"> -->
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/img/">
+</head>
+
+<body>
+    <div class="main">
+
+        <header class="header">
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">
+                    <img src="./asset/img/f8_icon.png" alt="" class="header__logo-img">
+                </a>
+                <h3 class="header__slogan">Học Lập Trình Để Đi Làm</h3>
+            </div>
+
+            <div class="header__search">
+                <i class="header__search-icon fas fa-search"></i>
+                <input type="text" class="header__search-input" placeholder="Tìm kiếm khóa học, bài viết, video,...">
+            </div>
+
+            <div class="header__user">
+                <div class="header__user-myCourse-all">
+                    <h3 class="header__user-title js-header__user-title">Khóa học của tôi</h3>
+
+                    <!-- My course -->
+                    <div class="header__user-my-course js-my-course-header">
+                        <header class="header__user-my-course-header">
+                            <h3>Khóa học của tôi</h3>
+                            <a href="#">Xem tất cả</a>
+                        </header>
+
+                        <ul class="header__user-my-course-lists">
+                            <li class="header__user-my-course-item">
+                                <a href="" class="header__user-my-course-links">
+                                    <img src="./asset/img/js_my-course.png" alt="" class="my-course-item__img">
+                                </a>
+                                <div class="my-course-item__info">
+                                    <span class="my-course-item__name">
+                                        <a href="" class="my-course-item__name-link">JavaScript cơ bản</a>
+                                    </span>
+                                    <span class="my-course-item__time">Học cách đây 11 ngày trước</span>
+                                    <div class="my-course-item__process"></div>
+                                </div>
+                            </li>
+
+                            <li class="header__user-my-course-item">
+                                <a href="" class="header__user-my-course-links">
+                                    <img src="./asset/img/responsive_my-course.png" alt="" class="my-course-item__img">
+                                </a>
+                                <div class="my-course-item__info">
+                                    <span class="my-course-item__name">
+                                        <a href="" class="my-course-item__name-link">Responsive với Grid System</a>
+                                    </span>
+                                    <span class="my-course-item__time">Học cách đây 11 ngày trước</span>
+                                    <div class="my-course-item__process"></div>
+                                </div>
+                            </li>
+
+                            <li class="header__user-my-course-item">
+                                <a href="" class="header__user-my-course-links">
+                                    <img src="./asset/img/html,css_my-course.png" alt="" class="my-course-item__img">
+                                </a>
+                                <div class="my-course-item__info">
+                                    <span class="my-course-item__name">
+                                        <a href="" class="my-course-item__name-link">HTML, CSS từ Zero đến Hero</a>
+                                    </span>
+                                    <span class="my-course-item__time">Học cách đây 19 ngày trước</span>
+                                    <div class="my-course-item__process"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header__user-notify">
+                    <i class="header__user-icon fas fa-bell js-icon-header"></i>
+
+                    <div class="header__user-notify-table js-header-notify-table">
+                        <header class="header__user-notify-header">
+                            <h3>Thông báo</h3>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </header>
+
+                        <ul class="header__user-notify-lists">
+                            <li class="header__user-notify-item">
+                                <img src="./asset/img/f8_avatar.png" alt="" class="header__user-notify-img">
+                                <div class="header__user-notify-info">
+                                    <span class="header__user-notify-message">Chào mừng
+                                        <span class="header__user-notify-message-name">Việt Phan</span>
+                                        đã gia nhập F8.
+                                        Hãy luôn đam mê, kiên trì và theo đuổi mục tiêu đến cùng nhé !
+                                    </span>
+                                    <span class="header__user-notify-time">3 tháng trước</span>
+                                </div>
+                            </li>
+
+                            <li class="header__user-notify-item">
+                                <img src="./asset/img/f8_avatar.png" alt="" class="header__user-notify-img">
+                                <div class="header__user-notify-info">
+                                    <span class="header__user-notify-message">Chào mừng
+                                        <span class="header__user-notify-message-name">Việt Phan</span>
+                                        đã gia nhập F8.
+                                        Hãy luôn đam mê, kiên trì và theo đuổi mục tiêu đến cùng nhé !
+                                    </span>
+                                    <span class="header__user-notify-time">3 tháng trước</span>
+                                </div>
+                            </li>
+
+                            <li class="header__user-notify-item">
+                                <img src="./asset/img/f8_avatar.png" alt="" class="header__user-notify-img">
+                                <div class="header__user-notify-info">
+                                    <span class="header__user-notify-message">Chào mừng
+                                        <span class="header__user-notify-message-name">Việt Phan</span>
+                                        đã gia nhập F8.
+                                        Hãy luôn đam mê, kiên trì và theo đuổi mục tiêu đến cùng nhé !
+                                    </span>
+                                    <span class="header__user-notify-time">3 tháng trước</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header__user-avt js-header-avt">
+                    <img src="./asset/img/z3093051840216_8d61061b92a24e6d211851780a6932a2.jpg" alt=""
+                        class="header__user-img">
+
+                    <div class="header__user-avt-table js-header-avt-table">
+                        <header class="header__user-avt-header">
+                            <img src="./asset/img/z3093051840216_8d61061b92a24e6d211851780a6932a2.jpg" alt="">
+
+                            <div class="header__user-avt-header__info">
+                                <span class="header__info-name">Việt Phan</span>
+                                <span class="header__info-username">@vietphan1</span>
+                            </div>
+                        </header>
+                        <a href="#" class="header__user-avt-table-blog">Viết blog</a>
+                        <a href="#" class="header__user-avt-table-myArticle">Bài viết của tôi</a>
+                        <a href="#" class="header__user-avt-table-postsSaved">Bài viết đã lưu</a>
+                        <a href="#" class="header__user-avt-table-setting">Cài đặt</a>
+                        <a href="#" class="header__user-avt-table-logOut">Đăng xuất</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="sidebar">
+                <div class="sidebar_item">
+                    <div>
+                        <div class="sidebar_button-circle">
+                            <i class="fa-solid fa-plus x-button"></i>
+                        </div>
+                        <div class="sidebar__miniMenu"></div>
+                    </div>
+                    <ul class="sidebar_item-list">
+                        <li>
+                            <a class="sidebar_item-active sidebar_item-wrapper" href="#">
+                                <i class="fa-solid fa-house"></i>
+                                <span> Home </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sidebar_item-wrapper" href="#">
+                                <i class="fa-solid fa-road"></i>
+                                <span> Lộ trình </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sidebar_item-wrapper" href="#">
+                                <i class="fa-solid fa-lightbulb"></i>
+                                <span> Học </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="sidebar_item-wrapper" href="#">
+                                <i class="fa-solid fa-newspaper"></i>
+                                <span> Blog </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container__wrapper">
+                <div class="container__body">
+
+                    <!-- Slider section -->
+                    <div class="container__slider">
+                        <div class="slick-slider__wrapper">
+                            <!-- left button -->
+                            <!-- is-hidden -->
+                            <button class="prevBtn slickSlider__Btn is-hidden">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </button>
+
+                            <!-- slider section -->
+                            <div class="slider__list-item">
+
+                                <div class="slider__slideTrack">
+        
+                                    <!-- <div data-index="0" class="slider__item">
+                                        <div class="slide__wrapper" id="firstClone" style="--cta-hover-color:#007efe; background: linear-gradient(to right, rgb(0, 126, 254), rgb(6, 195, 254));">
+                                            <div class="slide__item-left">
+                                                <h2> 
+                                                    <a href="#">
+                                                        F8 trên Facebook      
+                                                    </a> 
+                                                </h2>
+                                                <p> F8 được nhắc tới ở mọi nơi, 
+                                                    ở đâu có cơ hội việc làm cho nghề IT và 
+                                                    có những con người yêu thích lập trình F8 sẽ ở đó. </p>
+                                                <div>
+                                                    <a href="#"> Truy Cập Nhóm </a>
+                                                </div>
+                                            </div>
+                                            <div class="slide__item-right">
+                                                
+                                                <img src="./asset/img/Banner_04_2.png" alt="" srcset="">
+            
+                                            </div>
+                                        </div>
+                                    </div> -->
+
+                                    <div data-index="0" class="slider__item" id="current-slide">
+                                        <div class="slide__wrapper" style="--cta-hover-color:#7612ff; background: linear-gradient(to right, rgb(40, 119, 250), rgb(103, 23, 205));">
+                                            <div class="slide__item-left">
+                                                <h2> 
+                                                    <a href="#">
+                                                        Học ReactJS Miễn Phí!        
+                                                    </a> 
+                                                </h2>
+                                                <p>Khóa học ReactJS từ cơ bản đến nâng cao. 
+                                                    Kết quả của khóa học này là bạn có thể 
+                                                    làm hầu hết các dự án thường gặp với ReacJS </p>
+                                                <div>
+                                                    <a href="#"> Đăng ký ngay </a>
+                                                </div>
+                                            </div>
+                                            <div class="slide__item-right">
+
+                                                <img src="./asset/img/Banner_web_ReactJS.png" alt="" srcset="">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div data-index="1" class="slider__item">
+                                        <div class="slide__wrapper" style="--cta-hover-color:#7612ff; background-image: linear-gradient(to right, #7612ff, #05b2ff)">
+                                            
+                                            <div class="slide__item-left">
+                                                <h2> 
+                                                    <a href="#">
+                                                        Thành Quả của Học Viên       
+                                                    </a> 
+                                                </h2>
+                                                <p> 
+                                                    Để đạt được kết quả tốt trong mọi việc ta cần 
+                                                    xác định mục tiêu rõ ràng cho việc đó. 
+                                                    Học lập trình cũng không là ngoại lệ. 
+                                                </p>
+                                                <div>
+                                                    <a href="#"> Xem Thành Quả </a>
+                                                </div>
+                                            </div>
+                                            <div class="slide__item-right">
+                                                <img src="./asset/img/Banner_01_2.png" alt="" srcset="">
+                                            </div>
+
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div data-index="2" class="slider__item">
+                                        <div class="slide__wrapper" style="--cta-hover-color:#fe215e; background: linear-gradient(to right, rgb(254, 33, 94), rgb(255, 148, 2));">
+                                            <div class="slide__item-left">
+                                                <h2> 
+                                                    <a href="#">
+                                                        F8 Trên Youtube     
+                                                    </a> 
+                                                </h2>
+                                                <p> F8 được nhắc tới ở mọi nơi, 
+                                                    ở đâu có cơ hội việc làm cho nghề IT và 
+                                                    có những con người yêu thích lập trình F8 sẽ ở đó. </p>
+                                                <div>
+                                                    <a href="#"> Truy cập kênh </a>
+                                                </div>
+                                            </div>
+                                            <div class="slide__item-right">
+
+                                                <img src="./asset/img/Banner_03_youtube.png" alt="" srcset="">
+            
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div data-index="3" class="slider__item">
+                                        <div class="slide__wrapper" style="--cta-hover-color:#007efe; background: linear-gradient(to right, rgb(0, 126, 254), rgb(6, 195, 254));" >
+                                            <div class="slide__item-left">
+                                                <h2> 
+                                                    <a href="#">
+                                                        F8 trên Facebook      
+                                                    </a> 
+                                                </h2>
+                                                <p> F8 được nhắc tới ở mọi nơi, 
+                                                    ở đâu có cơ hội việc làm cho nghề IT và 
+                                                    có những con người yêu thích lập trình F8 sẽ ở đó. </p>
+                                                <div>
+                                                    <a href="#"> Truy Cập Nhóm </a>
+                                                </div>
+                                            </div>
+                                            <div class="slide__item-right">
+
+                                                <img src="./asset/img/Banner_04_2.png" alt="" srcset="">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- <div data-index="5" class="slider__item">
+                                        <div class="slide__wrapper" id="firstClone" style="--cta-hover-color:#7612ff; background: linear-gradient(to right, rgb(40, 119, 250), rgb(103, 23, 205));">
+                                            <div class="slide__item-left">
+                                                <h2> 
+                                                    <a href="#">
+                                                        Học ReactJS Miễn Phí!        
+                                                    </a> 
+                                                </h2>
+                                                <p>Khóa học ReactJS từ cơ bản đến nâng cao. 
+                                                    Kết quả của khóa học này là bạn có thể 
+                                                    làm hầu hết các dự án thường gặp với ReacJS </p>
+                                                <div>
+                                                    <a href="#"> Đăng ký ngay </a>
+                                                </div>
+                                            </div>
+                                            <div class="slide__item-right">
+
+                                                <img src="./asset/img/Banner_web_ReactJS.png" alt="" srcset="">
+
+                                            </div>
+                                        </div>
+                                    </div> -->
+
+                                    
+                                    
+                                </div>
+                            </div>
+                            
+                            <!-- right button -->
+                            <button class="nextBtn slickSlider__Btn">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </button>
+
+                            <!-- course list in dot -->
+                            <div class="slick__dot-menu">
+                                    <button class="current-slide">
+                                        1
+                                    </button>
+                                    <button>
+                                        2
+                                    </button>
+                                    <button>
+                                        3
+                                    </button>
+                                    <button>
+                                        4
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container__content">
+                        <div class="content__subHeading">
+                            <span class="content__subHeading-number">167.662+</span>
+                            người khác đã học
+                        </div>
+
+                        <div class="container__heading">
+                            <h2 class="container__heading-title">
+                                <a href="" class="container__heading-title-link">
+                                    Lộ trình học
+                                    <span>Mới</span>
+                                </a>
+                            </h2>
+                            <a href="#" class="container__see-details">
+                                <span class="container__see-details-title">Xem chi tiết</span>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+
+                        <div class="container__select-process">
+                            <button class="btn container__FE-process btn-study-route-active">Front-end</button>
+                            <button class="btn container__BE-process">Back-end</button>
+                        </div>
+
+                        <!-- Study route -->
+                        <div class="container__list">
+                            <div class="container__item">
+                                <a href="#" class="container__item-link" style="background-image:
+                                    linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0) 50%), 
+                                    url(./asset/img/container__img-basic-knowledge.png);">
+                                    <div class="container__item-watch-something">Xem khóa học</div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Kiến Thức Nhập Môn IT</a>
+                                </h3>
+                                <div class="number-of-people-studied">
+                                    <i class="fa-solid fa-users container__item-icon"></i>
+                                    <span class="container__item-number-of-users">58.060</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="container__heading">
+                            <h2 class="container__heading-title">
+                                <a href="" class="container__heading-title-link">Bài viết nổi bật</a>
+                            </h2>
+                        </div>
+
+                        <!-- Featured Posts -->
+                        <div class="container__list">
+                            <div class="container__item">
+                                <a href="#" class="container__item-link"
+                                    style="background-image: url(./asset/img/hot-girl.png);">
+                                    <div class="container__item-watch-something">Xem bài viết</div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-avt-with-author">
+                                    <a href="#" class="container__item-avt">
+                                        <img src="./asset/img/z3093051840216_8d61061b92a24e6d211851780a6932a2.jpg" alt="">
+                                    </a>
+                                    <a href="" class="container__item-author">
+                                        <strong class="container__item-author-name">Phan Việt</strong>
+                                        <span class="container__item-author-dot">·</span>
+                                        <span class="container__item-author-time">Đọc đ bao giờ chán :))</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link"
+                                    style="background-image: url(./asset/img/post2.jpg);">
+                                    <div class="container__item-watch-something">Xem bài viết</div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-avt-with-author">
+                                    <a href="#" class="container__item-avt">
+                                        <img src="./asset/img/z3093051840216_8d61061b92a24e6d211851780a6932a2.jpg" alt="">
+                                    </a>
+                                    <a href="" class="container__item-author">
+                                        <strong class="container__item-author-name">Phan Việt</strong>
+                                        <span class="container__item-author-dot">·</span>
+                                        <span class="container__item-author-time">6 phút đọc</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link"
+                                    style="background-image: url(./asset/img/post3.png);">
+                                    <div class="container__item-watch-something">Xem bài viết</div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-avt-with-author">
+                                    <a href="#" class="container__item-avt">
+                                        <img src="./asset/img/z3093051840216_8d61061b92a24e6d211851780a6932a2.jpg" alt="">
+                                    </a>
+                                    <a href="" class="container__item-author">
+                                        <strong class="container__item-author-name">Phan Việt</strong>
+                                        <span class="container__item-author-dot">·</span>
+                                        <span class="container__item-author-time">6 phút đọc</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link"
+                                    style="background-image: url(./asset/img/post4.jpg);">
+                                    <div class="container__item-watch-something">Xem bài viết</div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-avt-with-author">
+                                    <a href="#" class="container__item-avt">
+                                        <img src="./asset/img/z3093051840216_8d61061b92a24e6d211851780a6932a2.jpg" alt="">
+                                    </a>
+                                    <a href="" class="container__item-author">
+                                        <strong class="container__item-author-name">Phan Việt</strong>
+                                        <span class="container__item-author-dot">·</span>
+                                        <span class="container__item-author-time">6 phút đọc</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link"
+                                    style="background-image: url(./asset/img/post5.png);">
+                                    <div class="container__item-watch-something">Xem bài viết</div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-avt-with-author">
+                                    <a href="#" class="container__item-avt">
+                                        <img src="./asset/img/ditme-Hòa.jpg" alt="">
+                                    </a>
+                                    <a href="" class="container__item-author">
+                                        <strong class="container__item-author-name">Hòa Vũ</strong>
+                                        <span class="container__item-author-dot">·</span>
+                                        <span class="container__item-author-time">6 phút đọc</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link"
+                                    style="background-image: url(./asset/img/post6.png);">
+                                    <div class="container__item-watch-something">Xem bài viết</div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-avt-with-author">
+                                    <a href="#" class="container__item-avt">
+                                        <img src="./asset/img/ditme-Hòa.jpg" alt="">
+                                    </a>
+                                    <a href="" class="container__item-author">
+                                        <strong class="container__item-author-name">Hòa Vũ</strong>
+                                        <span class="container__item-author-dot">·</span>
+                                        <span class="container__item-author-time">6 phút đọc</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link"
+                                    style="background-image: url(./asset/img/post7.png);">
+                                    <div class="container__item-watch-something">Xem bài viết</div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-avt-with-author">
+                                    <a href="#" class="container__item-avt">
+                                        <img src="./asset/img/ditme-Hòa.jpg" alt="">
+                                    </a>
+                                    <a href="" class="container__item-author">
+                                        <strong class="container__item-author-name">Hòa Vũ</strong>
+                                        <span class="container__item-author-dot">·</span>
+                                        <span class="container__item-author-time">6 phút đọc</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link"
+                                    style="background-image: url(./asset/img/post8.jpg);">
+                                    <div class="container__item-watch-something">Xem bài viết</div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-avt-with-author">
+                                    <a href="#" class="container__item-avt">
+                                        <img src="./asset/img/ditme-Hòa.jpg" alt="">
+                                    </a>
+                                    <a href="" class="container__item-author">
+                                        <strong class="container__item-author-name">Hòa Vũ</strong>
+                                        <span class="container__item-author-dot">·</span>
+                                        <span class="container__item-author-time">6 phút đọc</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container__heading">
+                            <h2 class="container__heading-title">
+                                <a href="" class="container__heading-title-link">Videos nổi bật</a>
+                            </h2>
+                        </div>
+
+                        <!-- Featured Video -->
+                        <div class="container__list">
+                            <div class="container__item">
+                                <a href="#" class="container__item-link" style="background-image: 
+                                    linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0) 50%),
+                                    url(./asset/img/video-img-1.jpg);">
+                                    <div class="container__item-watch-something">Xem video</div>
+                                    <div class="container__item-info">
+                                        <div class="container__item-info-play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <div class="container__item-info-time">
+                                            25:10
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-interactive">
+                                    <div class="container__item-interactive-view">
+                                        <i class="fas fa-eye"></i>
+                                        <div class="container__item-interactive-number">232.412</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-like">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <div class="container__item-interactive-number">5.063</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-commment">
+                                        <i class="fas fa-comment"></i>
+                                        <div class="container__item-interactive-number">178</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link" style="background-image:
+                                    linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0) 50%), 
+                                    url(./asset/img/video-img-2.jpg);">
+                                    <div class="container__item-watch-something">Xem video</div>
+                                    <div class="container__item-info">
+                                        <div class="container__item-info-play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <div class="container__item-info-time">
+                                            25:10
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-interactive">
+                                    <div class="container__item-interactive-view">
+                                        <i class="fas fa-eye"></i>
+                                        <div class="container__item-interactive-number">232.412</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-like">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <div class="container__item-interactive-number">5.063</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-commment">
+                                        <i class="fas fa-comment"></i>
+                                        <div class="container__item-interactive-number">178</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link" style="background-image:
+                                    linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0) 50%), 
+                                    url(./asset/img/video-img-3.jpg);">
+                                    <div class="container__item-watch-something">Xem video</div>
+                                    <div class="container__item-info">
+                                        <div class="container__item-info-play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <div class="container__item-info-time">
+                                            25:10
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-interactive">
+                                    <div class="container__item-interactive-view">
+                                        <i class="fas fa-eye"></i>
+                                        <div class="container__item-interactive-number">232.412</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-like">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <div class="container__item-interactive-number">5.063</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-commment">
+                                        <i class="fas fa-comment"></i>
+                                        <div class="container__item-interactive-number">178</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link" style="background-image:
+                                    linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0) 50%), 
+                                    url(./asset/img/video-img-4.jpg);">
+                                    <div class="container__item-watch-something">Xem video</div>
+                                    <div class="container__item-info">
+                                        <div class="container__item-info-play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <div class="container__item-info-time">
+                                            25:10
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-interactive">
+                                    <div class="container__item-interactive-view">
+                                        <i class="fas fa-eye"></i>
+                                        <div class="container__item-interactive-number">232.412</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-like">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <div class="container__item-interactive-number">5.063</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-commment">
+                                        <i class="fas fa-comment"></i>
+                                        <div class="container__item-interactive-number">178</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link" style="background-image:
+                                    linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0) 50%), 
+                                    url(./asset/img/video-img-5.jpg);">
+                                    <div class="container__item-watch-something">Xem video</div>
+                                    <div class="container__item-info">
+                                        <div class="container__item-info-play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <div class="container__item-info-time">
+                                            25:10
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-interactive">
+                                    <div class="container__item-interactive-view">
+                                        <i class="fas fa-eye"></i>
+                                        <div class="container__item-interactive-number">232.412</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-like">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <div class="container__item-interactive-number">5.063</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-commment">
+                                        <i class="fas fa-comment"></i>
+                                        <div class="container__item-interactive-number">178</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link" style="background-image:
+                                    linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0) 50%), 
+                                    url(./asset/img/video-img-6.jpg);">
+                                    <div class="container__item-watch-something">Xem video</div>
+                                    <div class="container__item-info">
+                                        <div class="container__item-info-play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <div class="container__item-info-time">
+                                            25:10
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-interactive">
+                                    <div class="container__item-interactive-view">
+                                        <i class="fas fa-eye"></i>
+                                        <div class="container__item-interactive-number">232.412</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-like">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <div class="container__item-interactive-number">5.063</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-commment">
+                                        <i class="fas fa-comment"></i>
+                                        <div class="container__item-interactive-number">178</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link" style="background-image:
+                                    linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0) 50%), 
+                                    url(./asset/img/video-img-7.jpg);">
+                                    <div class="container__item-watch-something">Xem video</div>
+                                    <div class="container__item-info">
+                                        <div class="container__item-info-play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <div class="container__item-info-time">
+                                            25:10
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-interactive">
+                                    <div class="container__item-interactive-view">
+                                        <i class="fas fa-eye"></i>
+                                        <div class="container__item-interactive-number">232.412</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-like">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <div class="container__item-interactive-number">5.063</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-commment">
+                                        <i class="fas fa-comment"></i>
+                                        <div class="container__item-interactive-number">178</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container__item">
+                                <a href="#" class="container__item-link" style="background-image:
+                                    linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0) 50%), 
+                                    url(./asset/img/video-img-8.jpg);">
+                                    <div class="container__item-watch-something">Xem video</div>
+                                    <div class="container__item-info">
+                                        <div class="container__item-info-play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <div class="container__item-info-time">
+                                            25:10
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <h3 class="container__item-des">
+                                    <a href="#" class="container__item-des-link">Tổng hợp các sản phẩm của học viên tại
+                                        F8</a>
+                                </h3>
+
+                                <div class="container__item-interactive">
+                                    <div class="container__item-interactive-view">
+                                        <i class="fas fa-eye"></i>
+                                        <div class="container__item-interactive-number">232.412</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-like">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <div class="container__item-interactive-number">5.063</div>
+                                    </div>
+
+                                    <div class="container__item-interactive-commment">
+                                        <i class="fas fa-comment"></i>
+                                        <div class="container__item-interactive-number">178</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="footer__info">
+                    <div class="footer__info-contact">
+                        <div class="footer__contact-main">
+                            <img src="./asset/img/f8_icon.png" alt="" class="footer__contact-slogan-logo">
+                            <h2 class="footer__column-title font-weight-strong">Học Lập Trình Để Đi Làm</h2>
+                        </div>
+                        <ul class="footer__info-contact-lists">
+                            <li class="footer__info-contact-item">
+                                Email:
+                                <a href="#" class="footer__info-contact-item-email">contact@fullstack.edu.vn</a>
+                            </li>
+                            <li class="footer__info-contact-item">
+                                Địa chỉ: Nhà D9, lô A10, Nam Trung Yên, Trung Hòa, Cầu Giấy, Hà Nội
+                            </li>
+                            <li class="footer__info-contact-item">
+                                <a href="" class="footer__info-contact-item-link">
+                                    <img src="./asset/img/footer-img.png" alt="" class="footer__info-contact-item-img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__info-support">
+                        <div>
+                            <h2 class="footer__column-title">Hỗ trợ</h2>
+                            <ul class="footer__info-lists">
+                                <li class="footer__info-item">
+                                    <a href="#" class="footer__info-item-link">Liên hệ</a>
+                                </li>
+                                <li class="footer__info-item">
+                                    <a href="#" class="footer__info-item-link">Bảo mật</a>
+                                </li>
+                                <li class="footer__info-item">
+                                    <a href="#" class="footer__info-item-link">Điều Khoản</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__info-about">
+                        <div>
+                            <h2 class="footer__column-title">Về F8</h2>
+                            <ul class="footer__info-lists">
+                                <li class="footer__info-item">
+                                    <a href="#" class="footer__info-item-link">Giới Thiệu</a>
+                                </li>
+                                <li class="footer__info-item">
+                                    <a href="#" class="footer__info-item-link">Cơ hội việc làm</a>
+                                </li>
+                                <li class="footer__info-item">
+                                    <a href="#" class="footer__info-item-link">Đối tác</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__info-address">
+                        <div>
+                            <h2 class="footer__column-title">Đơn vị chủ quản</h2>
+                            <ul class="footer__info-lists">
+                                <li class="footer__info-item">
+                                    Người đại diện: Đặng Ngọc Sơn - Giám Đốc
+                                </li>
+                                <li class="footer__info-item">
+                                    Mã số doanh nghiệp: 0108721536
+                                </li>
+                                <li class="footer__info-item">
+                                    Ngày thành lập: 03/05/2019
+                                </li>
+                                <li class="footer__info-item">
+                                    Nơi cấp: Sở kế hoạch và đầu tư TP Hà Nội
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__lowFooter">
+                    <div class="footer__lowFooter-left">
+                        © 2022 F8 - Nền tảng học lập trình web đầu tiên tại Việt Nam
+                    </div>
+                    <div class="footer__lowFooter-right">
+                        <img src="./asset/img/facebook.png" alt="" class="footer__lowFooter-right-img">
+                        <img src="./asset/img/youtube.png" alt="" class="footer__lowFooter-right-img">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

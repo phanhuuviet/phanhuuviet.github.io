@@ -1,0 +1,143 @@
+:root {
+    --text-color: #333;
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #f05123;
+    --border-color: #dbdbdb;
+    --header-height: 66px;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Animation */
+.animation_drop-in {
+    animation: drop-in 0.3s ease-in;
+}
+
+.animation_fade-out {
+    animation: fade-out 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(-30%);
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    } 
+    to {
+        opacity: 0;
+        transform: translateY(-30%);
+    }
+}
+
+@keyframes moveBottomToCenter {
+    from {
+        opacity: 0;
+        transform: translate(-50%, calc(-50% + 15px));
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes appearOpacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0,05;
+    }
+}
+
+@keyframes rightToLeft {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(3px);
+    }
+}
+
+
+/* btn */
+.btn {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-study-route-active {
+    border-bottom: 2px solid #000;
+    color: #000;
+    cursor: default; 
+    font-weight: 900;
+}
+
+.font-weight-strong {
+    font-weight: 700 !important;
+}
+
+.cursor-poiter-defaul {
+    cursor: text !important; 
+}
+
+/* scroll bar */
+body::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 100rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(218, 218, 218);
+    border-radius: 100rem;
+}
